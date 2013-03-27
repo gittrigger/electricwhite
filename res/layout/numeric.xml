@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pca"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/pcaa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#900f3f9f"
+        android:padding="10dip" >
+
+        <LinearLayout
+            android:id="@+id/pcl"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/pcb"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/pcbga"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="5dip"
+                    android:layout_marginRight="5dip"
+                    android:layout_weight="1"
+                    android:background="#F05f4fa8"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="revert"
+                    android:textSize="22dip" />
+
+                <TextView
+                    android:id="@+id/pcbgb"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="#F01f8ff8"
+                    android:gravity="center_vertical|right"
+                    android:lines="1"
+                    android:paddingBottom="1dip"
+                    android:paddingLeft="1dip"
+                    android:paddingTop="1dip"
+                    android:shadowColor="#a0101040"
+                    android:shadowDx="3.0"
+                    android:shadowDy="3.0"
+                    android:shadowRadius="3.5"
+                    android:text="34"
+                    android:textSize="72dip" />
+
+                <TextView
+                    android:id="@+id/pcbgc"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="5dip"
+                    android:layout_marginTop="5dip"
+                    android:layout_weight="1"
+                    android:background="#F01f8f38"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="ENTER"
+                    android:textSize="22dip" />
+            </LinearLayout>
+
+            <ScrollView
+                android:id="@+id/pcts"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="#F01f8ff8"
+                android:padding="10dip" >
+
+                <LinearLayout
+                    android:id="@+id/pct"
+                    android:layout_width="88dip"
+                    android:layout_height="wrap_content"
+                    android:background="#c0c0c0c0"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/pctgc"
+                        android:layout_width="fill_parent"
+                        android:layout_height="219dip"
+                        android:layout_marginBottom="1px"
+                        android:background="#F0004f88"
+                        android:text="34"
+                        android:textSize="22dip"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:id="@+id/pctga"
+                        android:layout_width="fill_parent"
+                        android:layout_height="219dip"
+                        android:layout_marginBottom="1px"
+                        android:background="#F0004f88"
+                        android:text="34"
+                        android:textSize="22dip"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:id="@+id/pctgb"
+                        android:layout_width="fill_parent"
+                        android:layout_height="219dip"
+                        android:layout_marginBottom="1px"
+                        android:background="#F0004f88"
+                        android:text="34"
+                        android:textSize="22dip"
+                        android:visibility="invisible" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

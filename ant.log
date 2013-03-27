@@ -1,0 +1,83 @@
+Buildfile: /Users/haven/Documents/workspace/OK/build.xml
+
+-set-mode-check:
+
+-set-release-mode:
+
+-release-obfuscation-check:
+
+-setup:
+     [echo] Gathering info for OK...
+    [setup] Android SDK Tools Revision 15
+    [setup] Project Target: Google APIs
+    [setup] Vendor: Google Inc.
+    [setup] Platform Version: 2.2
+    [setup] API level: 8
+    [setup] 
+    [setup] ------------------
+    [setup] Resolving library dependencies:
+    [setup] No library dependencies.
+    [setup] 
+    [setup] ------------------
+    [setup] 
+    [setup] WARNING: Attribute minSdkVersion in AndroidManifest.xml (7) is lower than the project target API level (8)
+
+-build-setup:
+     [echo] Creating output directories if needed...
+
+-pre-build:
+
+-code-gen:
+     [echo] ----------
+     [echo] Handling aidl files...
+     [aidl] No aidl files to compile.
+     [echo] ----------
+     [echo] Handling RenderScript files...
+[renderscript] No renderscript files to compile.
+     [echo] ----------
+     [echo] Handling Resources...
+     [aapt] No changed resources. R.java and Manifest.java untouched.
+
+-pre-compile:
+
+-compile:
+    [javac] /sdk/android-sdk-macosx/tools/ant/build.xml:600: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+-post-compile:
+
+-obfuscate:
+
+-dex:
+      [dex] Found modified input file
+      [dex] Converting compiled files and external libraries into /Users/haven/Documents/workspace/OK/bin/classes.dex...
+
+-crunch:
+   [crunch] Crunching PNG Files in source dir: /Users/haven/Documents/workspace/OK/res
+   [crunch] To destination dir: /Users/haven/Documents/workspace/OK/bin/res
+   [crunch] Crunched 0 PNG files to update cache
+
+-package-resources:
+     [aapt] No changed resources or assets. OK.ap_ remains untouched
+
+-package:
+[apkbuilder] Found modified input file
+[apkbuilder] Creating OK-release-unsigned.apk for release...
+
+-release-prompt-for-password:
+    [input] Please enter keystore password (store:/Users/haven/Documents/dcs.keystore):
+    [input] Please enter password for alias 'dcs':
+
+-release-nosign:
+
+release:
+     [echo] Signing final apk...
+  [signjar] Signing JAR: /Users/haven/Documents/workspace/OK/bin/OK-release-unsigned.apk to /Users/haven/Documents/workspace/OK/bin/OK-release-unaligned.apk as dcs
+ [zipalign] Running zip align on final apk...
+     [echo] Release Package: /Users/haven/Documents/workspace/OK/bin/OK-release.apk
+[propertyfile] Updating property file: /Users/haven/Documents/workspace/OK/bin/build.prop
+[propertyfile] Updating property file: /Users/haven/Documents/workspace/OK/bin/build.prop
+[propertyfile] Updating property file: /Users/haven/Documents/workspace/OK/bin/build.prop
+[propertyfile] Updating property file: /Users/haven/Documents/workspace/OK/bin/build.prop
+
+BUILD SUCCESSFUL
+Total time: 8 seconds

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pbc"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FF1f8ff8"
+    android:isScrollContainer="true" >
+
+    <RelativeLayout
+        android:id="@+id/cmaprr"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="visible" >
+
+        <RelativeLayout
+            android:id="@+id/cmapbb"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#aF1f8ff8" >
+			
+			<!--
+            <com.google.android.maps.MapView
+                android:id="@+id/cmapb"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:apiKey="0l9u9d-7hr5za4ovhCiI3xeQ10LUqTiG6lwrMXw" />
+
+           
+                 <com.google.android.maps.MapView
+                android:id="@+id/cmapa"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:apiKey="0l9u9d-7hr5za4ovhCiI3xeQ10LUqTiG6lwrMXw" />
+            -->
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pbd"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#4F1f8ff8" >
+
+        <ImageView
+            android:id="@+id/pbe"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="matrix"
+            android:src="@drawable/dot"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/pbo"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="matrix"
+            android:src="@drawable/dot"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/pbsd"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="matrix"
+            android:src="@drawable/dot"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pbbx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dip"
+        android:background="#4F1f8ff8"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/pbbxg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#2F1f8ff8"
+            android:padding="10dip" >
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pbaa"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#4F1f8ff8" >
+
+        <RelativeLayout
+            android:id="@+id/pb5"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pbbcn"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#0020A070" >
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pbrus"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/pbbc5"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:id="@+id/alls"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="visible" >
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

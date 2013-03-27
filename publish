@@ -1,0 +1,42 @@
+#!/usr/bin/perl
+#use strict;
+$| = 1;
+
+print `sh -c "diff -r src/com/*/* \`find bk -type d -ctime -9h -mindepth 2 -maxdepth 2 | tail -n1\`/*/*/*"`;
+print `sh -c "diff -r res/* \`find bk -type d -ctime -9h -mindepth 2 -maxdepth 2 | tail -n1\`/*"`;
+print `sh -c "mkdir -p bk/\`date +%Y%m%d\`/\`date +%s\`"`;
+print `sh -c "cp -rp src/* \`find bk -type d -ctime -9h -mindepth 2 -maxdepth 2| tail -n1\`"`;
+print `sh -c "cp -rp res/* \`find bk -type d -ctime -9h -mindepth 2 -maxdepth 2| tail -n1\`"`;
+#sh -c "perl -e '\$b = \$_; \$b =~ s/android:versionName=\"([0-9]+)\.([0-9]+)\"/\$2/; \$b++; s/android:versionName=\"([0-9]+)\.([0-9]+)/android:versionName=\"\$1.\$b/;' -pi AndroidManifest.xml";
+#grep "android:versionName" AndroidManifest.xml | perl -e 's/.*?android:versionName=\"([0-9]+)\.([0-9]+)\".*/[galaxy version] $1.$2/' -p;
+my $iser = true;
+my $ibmax = 4;
+for(my $ib = 0;$ib < $ibmax; $ib++){if($iser){
+if($ib > 0){print "Running again\n"}
+`rm ant.log bin/OK-release.apk`;
+$iser = false;
+print "ANT\n";
+`cat px | ant release > ant.log 2>&1 &`;}
+{
+
+print "Reading\n";
+open(PN,"tail -f ant.log |");
+while(<PN>){chomp();
+#print $ib . "  :1: " . $_ . "\n";
+if($_ =~ /jarsigner error: java.lang.RuntimeException/){
+print "Build signing failed\n";$iser = true;
+}
+if($_ =~ /BUILD SUCCESSFUL/){
+print "Build Successful\n";
+my $cnm = "source ~/.profile; zipalign -f 4 bin/OK-release.apk bin/OK-publish.apk; adb -d uninstall com.docchomps.ok; adb -d install bin/OK-publish.apk;adb shell 'am start -a android.intent.action.MAIN -n com.docchomps.ok/.OKActivity'";
+print "$cnm\n";
+print "Complete\n";
+open(S, "$cnm |");while(my $c=<S>){print "    : ".$c;}close(S);
+$ib = $ibmax;last;
+}
+
+}
+
+close(PN);
+}}
+close(ANT);

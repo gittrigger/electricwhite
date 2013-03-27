@@ -1,0 +1,153 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="88dip"
+    android:layout_margin="0px"
+    android:background="#000040ab"
+    android:padding="10px" >
+
+    <LinearLayout
+        android:id="@+id/listrow_alphacolumn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/fielda"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3px"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="#EFF0F0F0"
+            android:textSize="28px"
+            android:visibility="visible" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/fieldb"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4px"
+                android:ellipsize="middle"
+                android:lines="2"
+                android:paddingTop="1px"
+                android:text=""
+                android:textColor="#FfAfFfFf"
+                android:textSize="22px"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/fieldbx"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3px"
+                android:ellipsize="middle"
+                android:lines="1"
+                android:paddingTop="1px"
+                android:text=""
+                android:textColor="#F0505050"
+                android:textSize="22px"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/fieldd"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3px"
+            android:ellipsize="none"
+            android:lines="1"
+            android:text=""
+            android:textColor="#CF909090"
+            android:textSize="24px"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/fieldc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3px"
+            android:ellipsize="none"
+            android:lines="1"
+            android:text=""
+            android:textColor="#CF909090"
+            android:textSize="24px"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/listrow_alphacolumn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/listrow_alphacolumn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/switcha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:singleLine="true"
+                android:text="switcha"
+                android:textSize="16px"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/switchb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:singleLine="true"
+                android:text="switch2"
+                android:textSize="16px"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/listrow_alphacolumn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imagea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/imageb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fieldid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="3px"
+        android:gravity="right"
+        android:lines="1"
+        android:paddingTop="1px"
+        android:text=""
+        android:textColor="#a0909090"
+        android:textSize="18px"
+        android:visibility="gone" />
+
+</RelativeLayout>

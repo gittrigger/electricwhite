@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shareInterpolator="false" >
+
+    <scale
+        android:duration="270"
+        android:fromXScale="1.0"
+        android:fromYScale="1.0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toXScale="1.2"
+        android:toYScale="1.2" />
+
+    <set >
+
+        <scale
+            android:duration="270"
+            android:fromXScale="1.0"
+            android:fromYScale="1.0"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:startOffset="271"
+            android:toXScale="0.85"
+            android:toYScale="0.85" />
+    </set>
+
+    <!--
+    <alpha
+        android:duration="870"
+        android:fillAfter="true"
+        android:fromAlpha="1.0"
+        android:toAlpha="0.0" />
+
+    <rotate
+        android:duration="1370"
+        android:fillAfter="true"
+        android:fromDegrees="0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:startOffset="0"
+        android:toDegrees="180" />
+
+    <set >
+
+        <translate
+            android:duration="313"
+            android:fillAfter="false"
+            android:fromXDelta="0"
+            android:fromYDelta="0%"
+            android:startOffset="1371"
+            android:toXDelta="-20%"
+            android:toYDelta="2%" />
+
+        <set >
+
+            <translate
+                android:duration="1313"
+                android:fillAfter="false"
+                android:fromXDelta="-20%"
+                android:fromYDelta="2%"
+                android:startOffset="1671"
+                android:toXDelta="-100%"
+                android:toYDelta="-20%" />
+        </set>
+    </set>
+    -->
+
+</set>

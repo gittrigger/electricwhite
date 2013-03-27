@@ -1,0 +1,132 @@
+Buildfile: /Users/havenskys/Documents/e/OK/build.xml
+Buildfile: /Users/havenskys/Documents/e/OK/build.xml
+Buildfile: /Users/havenskys/Documents/e/OK/build.xml
+Buildfile: /Users/havenskys/Documents/e/OK/build.xml
+Buildfile: /Users/havenskys/Documents/e/OK/build.xml
+
+-set-mode-check:
+
+-set-release-mode:
+
+-set-mode-check:
+
+-set-release-mode:
+
+-set-mode-check:
+
+-set-release-mode:
+
+-set-mode-check:
+
+-set-release-mode:
+
+-release-obfuscation-check:
+
+-setup:
+
+-release-obfuscation-check:
+
+-setup:
+     [echo] Creating output directories if needed...
+     [echo] Gathering info for OK...
+
+-set-mode-check:
+
+-set-release-mode:
+    [setup] Android SDK Tools Revision 19
+     [echo] Creating output directories if needed...
+     [echo] Gathering info for OK...
+
+-release-obfuscation-check:
+
+-setup:
+
+-release-obfuscation-check:
+
+-setup:
+    [setup] Android SDK Tools Revision 19
+     [echo] Creating output directories if needed...
+     [echo] Gathering info for OK...
+     [echo] Creating output directories if needed...
+     [echo] Gathering info for OK...
+    [setup] Android SDK Tools Revision 19
+    [setup] Android SDK Tools Revision 19
+
+-release-obfuscation-check:
+
+-setup:
+     [echo] Creating output directories if needed...
+     [echo] Gathering info for OK...
+    [setup] Android SDK Tools Revision 19
+Buildfile: /Users/havenskys/Documents/e/OK/build.xml
+
+-set-mode-check:
+
+-set-release-mode:
+
+-release-obfuscation-check:
+
+-setup:
+     [echo] Creating output directories if needed...
+     [echo] Gathering info for OK...
+    [setup] Android SDK Tools Revision 19
+Buildfile: /Users/havenskys/Documents/e/OK/build.xml
+Buildfile: /Users/havenskys/Documents/e/OK/build.xml
+Buildfile: /Users/havenskys/Documents/e/OK/build.xml
+Buildfile: /Users/havenskys/Documents/e/OK/build.xml
+Buildfile: /Users/havenskys/Documents/e/OK/build.xml
+
+-set-mode-check:
+
+-set-release-mode:
+
+-set-mode-check:
+
+-set-release-mode:
+
+-set-mode-check:
+
+-set-release-mode:
+
+-set-mode-check:
+
+-set-release-mode:
+
+-set-mode-check:
+
+-set-release-mode:
+
+-release-obfuscation-check:
+
+-setup:
+
+-release-obfuscation-check:
+
+-setup:
+
+-release-obfuscation-check:
+
+-setup:
+     [echo] Creating output directories if needed...
+     [echo] Creating output directories if needed...
+     [echo] Gathering info for OK...
+     [echo] Gathering info for OK...
+     [echo] Creating output directories if needed...
+     [echo] Gathering info for OK...
+    [setup] Android SDK Tools Revision 19
+    [setup] Android SDK Tools Revision 19
+    [setup] Android SDK Tools Revision 19
+
+-release-obfuscation-check:
+
+-setup:
+
+-release-obfuscation-check:
+
+-setup:
+     [echo] Creating output directories if needed...
+     [echo] Gathering info for OK...
+     [echo] Creating output directories if needed...
+     [echo] Gathering info for OK...
+    [setup] Android SDK Tools Revision 19
+    [setup] Android SDK Tools Revision 19

@@ -1,0 +1,447 @@
+start Wed Oct 3 08:53:14 2012
+Buildfile: /Users/havenskys/Documents/e/OK/build.xml
+
+-set-mode-check:
+
+-set-release-mode:
+
+-release-obfuscation-check:
+
+-setup:
+     [echo] Creating output directories if needed...
+     [echo] Gathering info for OK...
+    [setup] Android SDK Tools Revision 19
+    [setup] Project Target: Android 4.0.3
+    [setup] API level: 15
+    [setup] 
+    [setup] ------------------
+    [setup] Resolving library dependencies:
+    [setup] No library dependencies.
+    [setup] 
+    [setup] ------------------
+    [setup] API<=15: Adding annotations.jar to the classpath.
+    [setup] 
+    [setup] ------------------
+
+-build-setup:
+
+-pre-build:
+
+-code-gen:
+     [echo] ----------
+     [echo] Handling aidl files...
+     [aidl] No AIDL files to compile.
+     [echo] ----------
+     [echo] Handling RenderScript files...
+[renderscript] No RenderScript files to compile.
+     [echo] ----------
+     [echo] Handling Resources...
+     [aapt] No changed resources. R.java and Manifest.java untouched.
+     [echo] ----------
+     [echo] Handling BuildConfig class...
+[buildconfig] No need to generate new BuildConfig.
+
+-pre-compile:
+
+-compile:
+    [javac] Compiling 9 source files to /Users/havenskys/Documents/e/OK/bin/classes
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:76: package com.google.android.maps does not exist
+    [javac] import com.google.android.maps.GeoPoint;
+    [javac]                                ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:77: package com.google.android.maps does not exist
+    [javac] import com.google.android.maps.MapActivity;
+    [javac]                                ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:78: package com.google.android.maps does not exist
+    [javac] import com.google.android.maps.MapController;
+    [javac]                                ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:79: package com.google.android.maps does not exist
+    [javac] import com.google.android.maps.MapView;
+    [javac]                                ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:80: package com.itextpdf.text does not exist
+    [javac] import com.itextpdf.text.Anchor;
+    [javac]                          ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:81: package com.itextpdf.text does not exist
+    [javac] import com.itextpdf.text.Annotation;
+    [javac]                          ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:82: package com.itextpdf.text does not exist
+    [javac] import com.itextpdf.text.BaseColor;
+    [javac]                          ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:83: package com.itextpdf.text does not exist
+    [javac] import com.itextpdf.text.Chapter;
+    [javac]                          ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:84: package com.itextpdf.text does not exist
+    [javac] import com.itextpdf.text.Document;
+    [javac]                          ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:85: package com.itextpdf.text does not exist
+    [javac] import com.itextpdf.text.Font;
+    [javac]                          ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:86: package com.itextpdf.text does not exist
+    [javac] import com.itextpdf.text.Image;
+    [javac]                          ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:87: package com.itextpdf.text does not exist
+    [javac] import com.itextpdf.text.Paragraph;
+    [javac]                          ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:88: package com.itextpdf.text does not exist
+    [javac] import com.itextpdf.text.Phrase;
+    [javac]                          ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:89: package com.itextpdf.text does not exist
+    [javac] import com.itextpdf.text.Section;
+    [javac]                          ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:90: package com.itextpdf.text.pdf does not exist
+    [javac] import com.itextpdf.text.pdf.PdfPCell;
+    [javac]                              ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:91: package com.itextpdf.text.pdf does not exist
+    [javac] import com.itextpdf.text.pdf.PdfPTable;
+    [javac]                              ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:92: package com.itextpdf.text.pdf does not exist
+    [javac] import com.itextpdf.text.pdf.PdfWriter;
+    [javac]                              ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:94: cannot find symbol
+    [javac] symbol: class MapActivity
+    [javac] public class OKActivity extends MapActivity {
+    [javac]                                 ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:7575: cannot find symbol
+    [javac] symbol  : class GeoPoint
+    [javac] location: class com.docchomps.ok.OKActivity
+    [javac] 	GeoPoint xga, xgb;
+    [javac]         ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:7742: cannot find symbol
+    [javac] symbol  : class MapView
+    [javac] location: class com.docchomps.ok.OKActivity
+    [javac] 	MapView xmm;
+    [javac]         ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:7743: cannot find symbol
+    [javac] symbol  : class MapController
+    [javac] location: class com.docchomps.ok.OKActivity
+    [javac] 	MapController xui;
+    [javac]         ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:97: cannot find symbol
+    [javac] symbol  : variable super
+    [javac] location: class com.docchomps.ok.OKActivity
+    [javac] 		super.onCreate(si);
+    [javac]                 ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:99: cannot find symbol
+    [javac] symbol  : method setContentView(int)
+    [javac] location: class com.docchomps.ok.OKActivity
+    [javac] 		setContentView(R.layout.pas);
+    [javac]                 ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:110: cannot find symbol
+    [javac] symbol  : method findViewById(int)
+    [javac] location: class com.docchomps.ok.OKActivity
+    [javac] 		pbn = (RelativeLayout) findViewById(R.id.pbc);
+    [javac]                                        ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:111: cannot find symbol
+    [javac] symbol  : method getApplicationContext()
+    [javac] location: class com.docchomps.ok.OKActivity
+    [javac] 		ctx = getApplicationContext();
+    [javac]                       ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:113: cannot find symbol
+    [javac] symbol  : method getWindowManager()
+    [javac] location: class com.docchomps.ok.OKActivity
+    [javac] 		Display sd = getWindowManager().getDefaultDisplay();
+    [javac]                              ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:128: cannot find symbol
+    [javac] symbol  : method findViewById(int)
+    [javac] location: class com.docchomps.ok.OKActivity
+    [javac] 			while (findViewById(++hid) != null) {
+    [javac]                                ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:95: method does not override a method from its superclass
+    [javac] 	@Override
+    [javac]          ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:154: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 			boomBoard = (RelativeLayout) findViewById(R.id.pbbc5);// ccx
+    [javac]                                                      ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:156: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 			sparkEasel = (RelativeLayout) findViewById(R.id.pbbcn);
+    [javac]                                                       ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:166: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 			pbrus = (RelativeLayout) findViewById(R.id.pbrus);
+    [javac]                                                  ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:167: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 			alls = (RelativeLayout) findViewById(R.id.alls);
+    [javac]                                                 ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:183: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 			vmp = (RelativeLayout) findViewById(R.id.cmaprr);
+    [javac]                                                ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:184: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 			xmmbb = (RelativeLayout) findViewById(R.id.cmapbb);
+    [javac]                                                  ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:185: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 			xmmd = (ImageView) findViewById(R.id.pbsd);
+    [javac]                                            ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:186: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 			xmme = (ImageView) findViewById(R.id.pbe);
+    [javac]                                            ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:187: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 			xmmi = (ImageView) findViewById(R.id.pbo);
+    [javac]                                            ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:188: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 			pbbx = (RelativeLayout) findViewById(R.id.pbbx);
+    [javac]                                                 ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:189: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 			pbbxg = (TextView) findViewById(R.id.pbbxg);
+    [javac]                                            ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:190: cannot find symbol
+    [javac] symbol: class MapView
+    [javac] 			xmm = (MapView) findViewById(R.id.cmapb);
+    [javac]                                ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:190: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 			xmm = (MapView) findViewById(R.id.cmapb);
+    [javac]                                         ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:271: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 						while (findViewById(++hid) != null) {
+    [javac]                                                        ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:287: cannot find symbol
+    [javac] symbol: method getResources()
+    [javac] 				bla2 = BitmapFactory.decodeResource(getResources(),
+    [javac]                                                                     ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:308: cannot find symbol
+    [javac] symbol: method getResources()
+    [javac] 					bla[ki] = BitmapFactory.decodeResource(getResources(), ni);
+    [javac]                                                                                ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:327: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 					while (findViewById(++hid) != null) {
+    [javac]                                                ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:341: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 					while (findViewById(++hid) != null) {
+    [javac]                                                ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:361: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 				while (findViewById(++hid) != null) {
+    [javac]                                        ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:415: cannot find symbol
+    [javac] symbol: method getWindowManager()
+    [javac] 			Display sd = getWindowManager().getDefaultDisplay();
+    [javac]                                      ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:468: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 				while (findViewById(++hid) != null) {
+    [javac]                                        ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:483: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 				while (findViewById(++hid) != null) {
+    [javac]                                        ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:552: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 					while (findViewById(++hid) != null) {
+    [javac]                                                ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:588: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 					while (findViewById(++hid) != null) {
+    [javac]                                                ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:622: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 					while (findViewById(++hid) != null) {
+    [javac]                                                ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:660: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 					while (findViewById(++hid) != null) {
+    [javac]                                                ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:702: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 					while (findViewById(++hid) != null) {
+    [javac]                                                ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:742: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 					while (findViewById(++hid) != null) {
+    [javac]                                                ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:781: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 					while (findViewById(++hid) != null) {
+    [javac]                                                ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:819: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 					while (findViewById(++hid) != null) {
+    [javac]                                                ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:858: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 					while (findViewById(++hid) != null) {
+    [javac]                                                ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:897: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 					while (findViewById(++hid) != null) {
+    [javac]                                                ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:936: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 					while (findViewById(++hid) != null) {
+    [javac]                                                ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:976: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 					while (findViewById(++hid) != null) {
+    [javac]                                                ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:1041: cannot find symbol
+    [javac] symbol: method getContentResolver()
+    [javac] 				Cursor k = SqliteWrapper.query(ctx, getContentResolver(),
+    [javac]                                                                     ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:1224: cannot find symbol
+    [javac] symbol: method getContentResolver()
+    [javac] 				Uri uj = SqliteWrapper.insert(ctx, getContentResolver(),
+    [javac]                                                                    ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:1540: cannot find symbol
+    [javac] symbol: method getContentResolver()
+    [javac] 			Cursor bi = SqliteWrapper.query(ctx, getContentResolver(),
+    [javac]                                                              ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:1748: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 				while (findViewById(++hid) != null) {
+    [javac]                                        ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:2015: cannot find symbol
+    [javac] symbol: method getContentResolver()
+    [javac] 			Cursor bi = SqliteWrapper.query(ctx, getContentResolver(),
+    [javac]                                                              ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:2036: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 							j9 = (ImageView) findViewById(v7);
+    [javac]                                                                          ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:2056: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 							j9 = (ImageView) findViewById(v7);
+    [javac]                                                                          ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:2134: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 				ImageView j9 = (ImageView) findViewById(v7);
+    [javac]                                                            ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:2159: cannot find symbol
+    [javac] symbol: method getContentResolver()
+    [javac] 				Cursor bi = SqliteWrapper.query(ctx, getContentResolver(),
+    [javac]                                                                      ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:2208: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 					while (findViewById(++hid) != null) {
+    [javac]                                                ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:2223: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 					asparkr = (RelativeLayout) findViewById(ai);
+    [javac]                                                                    ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:2257: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 			uh = (ImageView) findViewById(msg.what);
+    [javac]                                          ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:2449: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 				uimvr = (ImageView) findViewById(msg.what);
+    [javac]                                                     ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:2514: cannot find symbol
+    [javac] symbol: method getContentResolver()
+    [javac] 					SqliteWrapper.update(ctx, getContentResolver(),
+    [javac]                                                                   ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:2536: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 							uimvr = (ImageView) findViewById(ui8);
+    [javac]                                                                             ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:2948: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 					hj = (ImageView) findViewById(halls[x]);
+    [javac]                                                          ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:2992: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 					while (findViewById(++hid) != null) {
+    [javac]                                                ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:3007: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 					while (findViewById(++hid) != null) {
+    [javac]                                                ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:3020: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 					while (findViewById(++hid) != null) {
+    [javac]                                                ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:3150: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 					hj = (ImageView) findViewById(halls[ballson]);
+    [javac]                                                          ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:3254: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 				TextView lj = (TextView) findViewById(josh[msg.what]);
+    [javac]                                                          ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:3710: cannot find symbol
+    [javac] symbol: class GeoPoint
+    [javac] 					GeoPoint rc = xmm.getMapCenter();
+    [javac]                                         ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:3825: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 				jh = (ImageView) findViewById(halls[ballson]);
+    [javac]                                                  ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:3832: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 				jh = (ImageView) findViewById(halls[ballson - 1]);
+    [javac]                                                  ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:3838: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 				jh = (ImageView) findViewById(halls[halls.length - 1]);
+    [javac]                                                  ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:3885: cannot find symbol
+    [javac] symbol  : variable super
+    [javac] location: class com.docchomps.ok.OKActivity
+    [javac] 		super.onResume();
+    [javac]                 ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:3883: method does not override a method from its superclass
+    [javac] 	@Override
+    [javac]          ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:3977: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 				while (findViewById(++hid) != null) {
+    [javac]                                        ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:4103: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 			while (findViewById(++hid) != null) {
+    [javac]                                ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:4134: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 			while (findViewById(++hid) != null) {
+    [javac]                                ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:4218: cannot find symbol
+    [javac] symbol: class GeoPoint
+    [javac] 			GeoPoint rc = xmm.getMapCenter();
+    [javac]                         ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:4356: cannot find symbol
+    [javac] symbol: class GeoPoint
+    [javac] 			GeoPoint rc = xmm.getMapCenter();
+    [javac]                         ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:4383: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 					while (findViewById(++hid) != null) {
+    [javac]                                                ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:4423: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 			ImageView gu = (ImageView) findViewById(msg.what);
+    [javac]                                                    ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:4544: cannot find symbol
+    [javac] symbol: class GeoPoint
+    [javac] 				xga = new GeoPoint(fla, flo);
+    [javac]                                           ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:4600: cannot find symbol
+    [javac] symbol: method getContentResolver()
+    [javac] 							getContentResolver(),
+    [javac]                                                         ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:4998: cannot find symbol
+    [javac] symbol: class GeoPoint
+    [javac] 					GeoPoint rc = xmm.getMapCenter();
+    [javac]                                         ^
+    [javac] /Users/havenskys/Documents/e/OK/src/com/docchomps/ok/OKActivity.java:5204: cannot find symbol
+    [javac] symbol: method findViewById(int)
+    [javac] 			op = (ImageView) findViewById(msg.what);
+    [javac]                                          ^
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] 100 errors
+
+BUILD FAILED
+/Users/havenskys/android-sdks/tools/ant/build.xml:651: The following error occurred while executing this line:
+/Users/havenskys/android-sdks/tools/ant/build.xml:672: Compile failed; see the compiler error output for details.
+
+Total time: 2 seconds
